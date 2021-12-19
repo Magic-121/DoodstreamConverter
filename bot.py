@@ -29,19 +29,19 @@ bot = Client('Doodstream bot',
 async def start(bot, message):
     await message.reply(
         f"**Welcome ⚡, {message.chat.first_name}!**\n\n"
-        "**I am the fastest Doodstream Link converter!\nSend any post with Dood link,\ni will automagically convert the Dood links to your account ✨\n Made By @SuryaPrabhas1245 🔥 **")
+        "**I am the fastest Doodstream Link converter!\nSend any post with Dood link,\ni will automagically convert the Doodstream links to your account ✨\n Made By @Updates_kannada_channels 🔥 **")
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hello, {message.chat.first_name}!**\n\n"
-        "**If you send post which had Doodstream Links, texts & images... Than I'll convert & replace all Doodstream links with your Doodstream links \nMessage me @SuryaPrabhas1245 For more help-**")
+        "**If you send post which had Doodstream Links, texts & images... Than I'll convert & replace all Doodstream links with your Doodstream links \nMessage me @magic121 For more help-**")
 
 @bot.on_message(filters.command('support') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
-        "**Message Me Your Problem @SuryaPrabhas1245**")
+        "**Message Me Your Problem @magic121**")
     
 @bot.on_message(filters.text & filters.private)
 async def Doodstream_uploader(bot, message):
@@ -175,7 +175,7 @@ async def addFooter(str):
     footer = """
     ━━━━━━━━━━━━━━━
 How To Watch ?  :""" + HOWTO + """
-━━━━━━━━━━━━━━━
+<h3 style="text-align: left;">&nbsp;<a href="https://youtu.be/pSIhTV-3ycU">https://youtu.be/pSIhTV-3ycU</a></h3>
 ⭐️ Join ➡️ t.me/""" + CHANNEL
     return str + footer
 
